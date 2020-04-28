@@ -51,13 +51,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12112}
     - Class: 114
-      Script: {instanceID: 12298}
+      Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 12586}
+      Script: {instanceID: 12588}
     - Class: 114
-      Script: {instanceID: 12934}
+      Script: {instanceID: 12838}
     - Class: 114
-      Script: {instanceID: 30740}
+      Script: {instanceID: 12940}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -323,6 +323,12 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
+      Hash: 28354a6e2f612bcb796913fb53afed7d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Class3_Method
+  - hash:
+      serializedVersion: 2
       Hash: feb9a5a121d15fa3654d4e50a5233045
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -419,10 +425,22 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: aed2b8aa5ac7989d7f8abe42b4e1d06f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Person
+  - hash:
+      serializedVersion: 2
       Hash: df434544c9f7b33d1cc7e635b180d279
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 68f0aae3a76f5a60fcf652a13cc8bf83
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Practice1_OperatorMethod
   - hash:
       serializedVersion: 2
       Hash: 3165968ba45c74472d279ba04455fccb
@@ -513,24 +531,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 28354a6e2f612bcb796913fb53afed7d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Class3_Method
-  - hash:
-      serializedVersion: 2
-      Hash: aed2b8aa5ac7989d7f8abe42b4e1d06f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Person
-  - hash:
-      serializedVersion: 2
-      Hash: 68f0aae3a76f5a60fcf652a13cc8bf83
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Practice1_OperatorMethod
   platform: 20
   scenePathNames:
   - "Assets/\u7B2C\u4E8C\u7AE0\uFF1A\u6578\u5B78\u3001\u6BD4\u8F03\u8207\u908F\u8F2F\u904B\u7B97\u5B50.unity"
