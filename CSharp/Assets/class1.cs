@@ -1,8 +1,8 @@
 ﻿using UnityEngine; // 引用Unity API(函式庫:Unity)
-//類別 class 定義一個物件
+//類別 "class" 定義一個物件
 //語法：class 類別名稱
 //: MonoBehaviour 可以將此腳本掛在unity物件上
-public class class1 : MonoBehaviour
+public class Class1 : MonoBehaviour
 {
     //定義類別成員
     //C#
@@ -10,7 +10,7 @@ public class class1 : MonoBehaviour
 
      [Header("car1")]
             public car car1;
-    [Header("car2")]
+     [Header("car2")]
        public car car2;
         
 
