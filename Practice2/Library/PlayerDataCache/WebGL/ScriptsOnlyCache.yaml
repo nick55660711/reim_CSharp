@@ -529,4 +529,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - "Assets/\u7DF4\u7FD2\u5834\u666F.unity"
-  playerPath: C:/reim/New Unity Project/practice2
+  playerPath: C:/reim/reim_CSharp/Practice2/practice2
