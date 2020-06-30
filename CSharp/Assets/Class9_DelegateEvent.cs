@@ -42,6 +42,11 @@ public class Class9_DelegateEvent : MonoBehaviour
     // 可以儲存 無傳回、一字串參數 的任何方法
     public delegate void DelegateTest2(string s);
 
+
+
+    //  無傳回、一整數參數 
+    public delegate void DelegateTest3(int n);
+
     // 定義委派欄位
 
     public DelegateTest dA;
@@ -49,6 +54,7 @@ public class Class9_DelegateEvent : MonoBehaviour
     public DelegateTest dC;
     public DelegateTest d;
     public DelegateTest2 d2C;
+    public DelegateTest3 d3;
 
     private void Start()
     {
@@ -60,11 +66,21 @@ public class Class9_DelegateEvent : MonoBehaviour
         d2C = MethodC;
 
         d2C("未幻");
-
         d = MethodA;
         d += MethodB;
         d += MethodB;
+
+        // Lambda 匿名函式
+        // () => {陳述式}
+        d += () =>  print("匿名"); ;
+
         d();
+
+
+        d3 = (n) => { n *= 10;  print("n = " + n); };
+
+        d3(7);
+
 
     }
 
